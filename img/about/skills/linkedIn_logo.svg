@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="90"
+   height="89.99868"
+   viewBox="0 0 90.000001 89.99868"
+   version="1.1"
+   xml:space="preserve"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+   id="svg8"
+   sodipodi:docname="linkedIn_logo.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata14"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs12" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1177"
+   id="namedview10"
+   showgrid="false"
+   inkscape:zoom="3.3794194"
+   inkscape:cx="-103.59513"
+   inkscape:cy="67.434553"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g6"
+   inkscape:document-rotation="0" />
+    <g
+   transform="translate(-797.12961,-287.42597)"
+   id="g6">
+        
+        <path
+   d="M 873.81578,364.11073 H 860.48023 V 343.2268 c 0,-4.98005 -0.089,-11.3908 -6.93568,-11.3908 -6.94575,0 -8.0085,5.42569 -8.0085,11.02809 v 21.24503 H 832.2009 v -42.94575 h 12.80176 v 5.8689 h 0.17954 c 2.60656,-4.45672 7.47108,-7.1285 12.63108,-6.93689 13.5159,0 16.00814,8.89011 16.00814,20.45601 z m -56.66172,-48.81787 h -0.002 c -4.24538,0 -7.73878,-3.493 -7.73878,-7.73838 0,-4.24538 3.4934,-7.73878 7.73878,-7.73878 4.24498,0 7.73798,3.49259 7.73879,7.73717 v 0.002 c 0,4.24458 -3.4926,7.73798 -7.73718,7.73838 m 6.66758,48.81787 H 810.4724 v -42.94736 h 13.34924 z m 56.64199,-76.67894 h -76.69262 c -3.60008,-0.0407 -6.59713,2.88675 -6.64101,6.48683 v 77.01105 c 0.0423,3.60209 3.03891,6.53271 6.64101,6.49407 h 76.69262 c 3.61095,0.0455 6.61806,-2.88474 6.66637,-6.49407 v -77.01629 c -0.0483,-3.60773 -3.05944,-6.53473 -6.66637,-6.48723"
+   style="fill:#0072b1;fill-rule:nonzero;stroke-width:0.402558;fill-opacity:1"
+   id="path4"
+   sodipodi:nodetypes="ccsssccccccccccsssssccccccccccccccc" />
+    </g>
+</svg>
