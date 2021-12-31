@@ -14,7 +14,7 @@ const interestsData = [
     id: 2,
     icon: "robot.svg",
     title: "Robotics",
-    content:"",
+    content:"Prior Experience: Teaching Assistant of Graduate Level Robotics at Tufts University",
     color: "#F9D74C",
     contentColor: "dark",
   },
