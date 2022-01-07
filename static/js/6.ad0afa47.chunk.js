@@ -1,2 +1,0 @@
-(this.webpackJsonptunis=this.webpackJsonptunis||[]).push([[6],{70:function(s,t,i){"use strict";i.r(t),t.default=i.p+"static/media/web-pi-car.95c3ce6f.md"}}]);
-//# sourceMappingURL=6.ad0afa47.chunk.js.map
