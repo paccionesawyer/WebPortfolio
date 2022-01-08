@@ -54,7 +54,7 @@ function Brandlogos() {
       <div className="container">
         <div className="row">
           {brandlogoData.map((brandlogo) => (
-            <div className="col-md-3 col-6" key={brandlogo.id}>
+            <div className="col-md-3 col-6 d-flex justify-content-center"  key={brandlogo.id}>
               <figure
                 className="direction-reveal__card"
               >

@@ -10,7 +10,7 @@ const index = () => {
       <div className="container">
         <div className="row">
           {/* Personal Info Starts */}
-          <a className="button" href="img/resume.pdf" download>
+          <a className="button" href="img/resume.pdf">
             <span className="button-text">Download Résumé</span>
             <span className="button-icon fa fa-download"></span>
           </a>

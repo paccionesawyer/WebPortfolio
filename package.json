@@ -2,7 +2,7 @@
   "name": "tunis",
   "version": "1.1.1",
   "private": true,
-  "homepage": "http://paccionesawyer.github.io",
+  "homepage": "http://sawyerpaccione.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -16,6 +16,7 @@
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.6.3",
     "react-modal": "^3.13.1",
+    "react-pdf": "^5.6.0",
     "react-responsive-carousel": "^3.2.22",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",

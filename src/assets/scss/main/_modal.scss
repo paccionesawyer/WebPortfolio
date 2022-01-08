@@ -6,45 +6,76 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: var(--accent8);
   z-index: 99;
   &.dark {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--accent9);
   }
 }
+
+figure {
+  padding: 4px;
+  margin: auto;
+  figcaption {
+    background-color: var(--text-color1);
+    color: var(--text-color2);
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .custom-modal {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border: none;
-  background: #fff;
+  background: var(--text-color1);
   overflow: initial;
   border-radius: 10px;
   outline: none;
+  .portfolioSlides {
+    padding: '0.5em';
+    background-color: var(--primary-color);
+    margin: '0.5em';
+  }
   .box_inner {
-    height: 75vh;
-    width: 750px;
+    height: 90vh;
+    width: 90vw;
     overflow-y: auto;
 
-    @media (max-width: 1400px) {
-      width: 900px;
-    }
-    @media (max-width: 992px) {
-      width: 700px;
-    }
+    // @media (max-width: 1400px) {
+    //   width: 900px;
+    // }
+    // @media (max-width: 992px) {
+    //   width: 700px;
+    // }
     // @media (max-width: 768px) {
     //   width: 560px;
     // }
-    @media (max-width: 599px) {
-      width: 460px;
-    }
-    @media (max-width: 490px) {
-      width: 360px;
-    }
-    @media (max-width: 420px) {
-      width: 320px;
-    }
+    // @media (max-width: 599px) {
+    //   width: 460px;
+    // }
+    // @media (max-width: 490px) {
+    //   width: 360px;
+    // }
+    // @media (max-width: 420px) {
+    //   width: 320px;
+    // }
     &.blog-post {
       padding: 0 50px;
       @media (max-width: 767px) {
@@ -96,7 +127,7 @@
     height: 45px;
     cursor: pointer;
     position: absolute;
-    filter: invert(1);
+    filter: var(--inversion);
     transition: 0.3s;
     @media screen and (max-width: 575px) {
       width: 30px;
@@ -115,33 +146,41 @@
 }
 
 .custom-modal.dark .box_inner::-webkit-scrollbar-track {
-  background: #333; /* color of the tracking area */
+  background: var(--accent5); /* color of the tracking area */
 }
 
 .custom-modal.dark .box_inner::-webkit-scrollbar-thumb {
-  background-color: #555; /* color of the scroll thumb */
+  background-color: var(--accent7); /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 1px solid #333; /* creates padding around scroll thumb */
-}
-body.light .custom-modal.dark .box_inner::-webkit-scrollbar-track {
-  background: #fff; /* color of the tracking area */
+  border: 1px solid var(--accent5); /* creates padding around scroll thumb */
 }
 
-body.light .custom-modal.dark .box_inner::-webkit-scrollbar-thumb {
-  background-color: #bbb; /* color of the scroll thumb */
-  border-radius: 20px; /* roundness of the scroll thumb */
-  border: 1px solid #fff; /* creates padding around scroll thumb */
+.embed-youtube {
+  position: relative;
+  padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+  /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+  /* padding-bottom: 75%; - 4:3 aspect ratio */
+  padding-top: 30px;
+  margin-bottom: 1em;
+  height: 0;
+  overflow: hidden;
 }
-.custom-modal.dark.light .box_inner.about {
-  border: 2px solid #fff;
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
+
 .custom-modal.dark {
-  background: #252525;
+  background: var(--primary-color);
   &.hero {
-    background: #111;
-  }
-  &.light {
-    background: #fff;
+    background: var(--primary-color);
   }
   .box_inner {
     &.about {
@@ -167,7 +206,7 @@ body.light .custom-modal.dark .box_inner::-webkit-scrollbar-thumb {
       @media (max-width: 420px) {
         width: 320px;
       }
-      border: 2px solid #222;
+      border: 2px solid var(--accent6);
     }
     &.portfolio {
       @media (min-width: 1600px) {

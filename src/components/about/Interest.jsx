@@ -1,7 +1,7 @@
 import React from "react";
 
 function Interest({ interest }) {
-  const { title, content, icon, color, contentColor } = interest;
+  const { title, content, icon, color } = interest;
   const hexToRgb = (hex) => {
     const temp = hex
       .replace(

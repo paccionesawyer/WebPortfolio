@@ -11,7 +11,7 @@ const educationContent = [
     year: "2018",
     degree: "High School Degree",
     institute: "New Rochelle High School",
-    details: `todo`,
+    details: "",
   },
 ];
 

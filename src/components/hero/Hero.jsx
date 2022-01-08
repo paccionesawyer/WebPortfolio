@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
 import Index from "../../components/about/index";
-import Social from "../../components/Social";
+// import Social from "../../components/Social";
 
 const heroContent = {
   heroImage: "img/hero/hero-img.jpg",

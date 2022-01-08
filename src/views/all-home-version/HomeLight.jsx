@@ -78,7 +78,7 @@ const HomeLight = () => {
           {/* About Content Ends */}
 
           {/* Portfolio Content Starts */}
-          <TabPanel className="portfolio">
+          <TabPanel id = "portfolio" className="portfolio">
             <div
               className="title-section text-left text-sm-center"
               data-aos="fade-up"

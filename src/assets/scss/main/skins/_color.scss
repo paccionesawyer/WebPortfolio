@@ -1,0 +1,110 @@
+/* =================================================================== */
+/* Colors
+blueviolet: #8a2be2
+golden rod: #daa520
+green: #72b626
+magenta: #ee6192
+orange: #fa5b0f
+purple: #6957af
+red: #f72b1c
+yellowgreen: #9acd32
+yellow: ???
+====================================================================== */
+
+.theme-light {
+  --primary-color:   #E9F1F7;
+  --secondary-color: #4169e1; 
+  --text-color1:     #111;
+  --text-color2:     black;
+  --accent1:         #f2f2f2;
+  --accent2:         rgb(184,184,184);
+  --accent3:         #666666;
+  --accent4: #121212 ;
+  --accent5: #cccccc;
+  --accent6: #dedede;
+  --accent7: #ababab;
+  --accent8: rgba(255, 255, 255, 0.65);
+  --accent9: rgba(255, 255, 255, 0.9);
+  --accent10: rgba(0,0,0, 0.05);
+  --inversion: invert(0);
+}
+
+/* --light-text is fine on on the first 3, --dark-text is fine on all of them, --dark-text and dark-background are fine as text on --accent */
+.theme-dark {
+  --primary-color:   #111;
+  --secondary-color: #6957af;
+  --text-color1:     #fff;
+  --text-color2:     white;
+  --accent1:         #2a2a2a;
+  --accent2:         #444;
+  --accent3:         #ddd;
+  --accent4: #eee ;
+  --accent5: #333;
+  --accent6: #222;
+  --accent7: #555;
+  --accent8: rgba(0, 0, 0, 0.65);
+  --accent9: rgba(0, 0, 0, 0.9);
+  --accent10: rgba(255, 255, 255, 0.05);
+  --inversion: invert(1);
+}
+
+.home h1,
+.about .box-stats h3,
+.title-section h1 span,
+#menu li.active a,
+body.light #menu li.active a,
+.blog .post-container:hover .post-content .entry-header h3 a,
+.blog .post-content .entry-header h3 a:hover,
+.contact .custom-span-contact i,
+.portfolio .slideshow a,
+.portfolio .grid figure:hover figcaption,
+.blog-post .meta i {
+  color: var(--secondary-color);
+}
+.home .home-details h1:before,
+.about .resume-box .icon,
+.contact ul.social li a:hover,
+body.light.contact ul.social li a:hover,
+.preloader .loader,
+.blog .page-link:hover,
+.blog .page-item.active .page-link,
+body.light.blog .page-link:hover,
+body.light.blog .page-item.active .page-link,
+.portfolio .grid li figure div,
+.header ul.icon-menu li.icon-box.react-tabs__tab--selected,
+.header ul.icon-menu li.icon-box:hover,
+.btn,
+.header .icon-box h2,
+.home .color-block,
+.title-section hr,
+.portfolio .slideshow .carousel-indicators li.active,
+.button:before,
+.button-icon {
+  background-color: var(--secondary-color);
+}
+@media screen and (max-width: 991px) {
+  .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
+  .header ul.icon-menu li.icon-box:hover,
+  body.light .header ul.icon-menu li.icon-box.react-tabs__tab--selected,
+  body.light .header ul.icon-menu li.icon-box:hover {
+    background: var(--secondary-color) !important;
+  }
+}
+.contact .contactform input[type="text"]:focus,
+.contact .contactform input[type="email"]:focus,
+.contact .contactform textarea:focus,
+body.light.contact .contactform input[type="text"]:focus,
+body.light.contact .contactform input[type="email"]:focus,
+body.light.contact .contactform textarea:focus,
+.blog .page-item.active .page-link,
+.blog .page-link:hover,
+body.light.blog .page-item.active .page-link,
+body.light.blog .page-link:hover,
+.button {
+  border: 3px solid var(--secondary-color);
+  margin: 10px 10px 10px 10px;
+}
+.blog .post-thumb {
+  border-bottom: 5px solid var(--secondary-color);
+}
+

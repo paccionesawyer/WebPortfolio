@@ -5,6 +5,7 @@ import Index from "../../components/about/index";
 import Address from "../../components/Address";
 import Blog from "../../components/blog/Blog";
 import Social from "../../components/Social";
+import Toggle from "../../components/Toggle";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
@@ -15,12 +16,10 @@ const menuItem = [
 
 const HomeDark = () => {
   return (
-    <div className="purple">
-      {/* <div className="demo-sticker">
-        <a href="/home-light">
-          <i className="fa fa-lightbulb-o" aria-hidden="true"></i>
-        </a>
-      </div> */}
+    <div>
+      <div className="demo-sticker">
+        <Toggle></Toggle>
+      </div>
       <Tabs>
         <div className="header">
           <TabList className=" icon-menu  revealator-slideup revealator-once revealator-delay1">
