@@ -1,0 +1,2 @@
+(this.webpackJsonptunis=this.webpackJsonptunis||[]).push([[5],{59:function(s,t,i){"use strict";i.r(t),t.default=i.p+"static/media/barrelClock.8c529450.md"}}]);
+//# sourceMappingURL=5.6c96e3ce.chunk.js.map
