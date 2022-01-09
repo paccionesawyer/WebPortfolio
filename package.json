@@ -23,6 +23,7 @@
     "react-slick": "^0.28.1",
     "react-tabs": "^3.2.2",
     "react-transition-group": "^4.4.2",
+    "react-typewriter-effect": "^1.1.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
