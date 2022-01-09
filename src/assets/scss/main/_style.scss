@@ -43,6 +43,10 @@ Version: 1.0
 
 /*** Miscellaneous ***/
 
+::selection {
+    background: var(--secondary-color); /* WebKit/Blink Browsers */
+  }
+
 html {
     overflow-x: hidden;
     height: 100%;

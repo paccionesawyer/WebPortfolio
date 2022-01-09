@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
+import TypeWriterEffect from 'react-typewriter-effect';
 import Index from "../../components/about/index";
 // import Social from "../../components/Social";
 
@@ -7,7 +8,7 @@ const heroContent = {
   heroImage: "img/hero/hero-img.jpg",
   heroMobileImage: "hero-img-mobile",
   heroTitleName: "Sawyer Bailey Paccione",
-  heroDesignation: "Mechanical Engineer",
+  heroDesignation: ["Mechanical Engineer"],
   heroDescriptions: `I am currently a Senior at Tufts University, 2022, studying Mechanical Engineering with an additional Major in Mathematics and a Minor in Computer Science.`,
   heroBtn: "more about me",
 };
@@ -38,7 +39,16 @@ const Hero = () => {
             />
             <h1 className="text-uppercase poppins-font">
               I'm {heroContent.heroTitleName}.
-              <span>{heroContent.heroDesignation}</span>
+              <span>
+                {heroContent.heroDesignation}
+                {/* <TypeWriterEffect
+                  startDelay={0}
+                  cursorColor="#3F3D56"
+                  multiText={heroContent.heroDesignation}
+                  multiTextDelay={2000}
+                  typeSpeed={20}
+                /> */}
+              </span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
             <button className="button" onClick={toggleModalOne}>
