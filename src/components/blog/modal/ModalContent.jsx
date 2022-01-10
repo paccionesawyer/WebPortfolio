@@ -47,6 +47,9 @@ const ModalContent = ({ data }) => {
                 <span className="button-text">View on Github</span>
                 <span className="button-icon fa fa-github"></span>
             </a>
+            <p>
+                {data.desc}
+            </p>
             {/* Article Content Starts */}
             {/* <div style={{padding: '0.5em', backgroundColor: 'lightgrey', marginBottom: '1em', borderRadius: '20px'}}> 
                 <PortfolioSlides path = {data.slidePath} slides={data.slides}></PortfolioSlides>
