@@ -50,7 +50,8 @@ const Blog = () => {
 			slides: [''],
             video: 'https://www.youtube.com/embed/O8TiVJCqcdQ',
             github: 'https://github.com/paccionesawyer/stl-to-csv-converter',
-            license: 'GNU GPLv3'
+            license: 'GNU GPLv3',
+            googleSlides: ""
         },
         {
             id: 2,
@@ -68,7 +69,8 @@ const Blog = () => {
 			slides: ['ME134_HW3_Group3_Presentation-1.jpg', 'ME134_HW3_Group3_Presentation-2.jpg', 'ME134_HW3_Group3_Presentation-3.jpg', 'ME134_HW3_Group3_Presentation-4.jpg', 'ME134_HW3_Group3_Presentation-5.jpg', 'ME134_HW3_Group3_Presentation-6.jpg', 'ME134_HW3_Group3_Presentation-7.jpg'],
             video: 'https://www.youtube.com/embed/DEUlKgTPG_8',
             github: 'https://github.com/paccionesawyer/3Axis-DrawingRobot',
-            license: 'GNU GPLv3'
+            license: 'GNU GPLv3',
+            googleSlides: ''
         },
         {
             id: 3,
@@ -86,7 +88,8 @@ const Blog = () => {
 			slides: ['PI_CAR_LABELLED.jpg'],
             video: 'https://www.youtube.com/embed/HMzt1AFN9BQ',
             github: 'https://github.com/paccionesawyer/web-pi-car',
-            license: 'GNU GPLv3'
+            license: 'GNU GPLv3',
+            googleSlides: ''
         },
 		{
 			id: 4,
@@ -104,7 +107,8 @@ const Blog = () => {
 			slides: ['Group7 - Barrel Clock - ME134-1.jpg', 'Group7 - Barrel Clock - ME134-2.jpg', 'Group7 - Barrel Clock - ME134-3.jpg', 'Group7 - Barrel Clock - ME134-4.jpg', 'Group7 - Barrel Clock - ME134-5.jpg'],
             video: 'https://www.youtube.com/embed/XxoPbqSJhxU',
             github: 'https://github.com/paccionesawyer/Analog-Clock',
-            license: 'GNU GPLv3'
+            license: 'GNU GPLv3',
+            googleSlides: "https://docs.google.com/presentation/d/e/2PACX-1vSZQkpaKKM4a7oE4soe3qsaG70uYuO7I1KXHlyM0mWFdxtdphlEvD4jj85krfrH5BP44N42HmhmU8X7/embed?start=false&loop=true&delayms=3000"
 		},
     ];
     const [filter, setFilter] = useState('All');
