@@ -45,7 +45,7 @@ Version: 1.0
 
 ::selection {
     background: var(--secondary-color); /* WebKit/Blink Browsers */
-  }
+}
 
 html {
     overflow-x: hidden;
@@ -269,7 +269,6 @@ hr.separator {
                 margin: 0 !important;
                 width: 45px !important;
                 height: 45px !important;
-                background: var(--accent2) !important;
                 i {
                     top: 14px;
                 }
@@ -306,7 +305,7 @@ hr.separator {
     transition: 0.3s;
     margin: 20px 0;
     border-radius: 50%;
-    background: var(--accent1);
+    background: var(--accent2);
     cursor: pointer;
 }
 
@@ -1150,7 +1149,8 @@ hr.separator {
         border-radius: 3px;
         z-index: 1;
         transform-origin: 5px 0;
-        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+            background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
     }
 
     #menuToggle > span:first-child {
@@ -1575,6 +1575,7 @@ button:focus {
 .row > * {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .pr-2 {
