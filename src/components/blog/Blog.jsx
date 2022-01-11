@@ -12,7 +12,8 @@ const Blog = () => {
     const [isOpen3, setIsOpen3] = useState(false);
     const [isOpen4, setIsOpen4] = useState(false);
     const [isOpen5, setIsOpen5] = useState(false);
-    // const [isOpen6, setIsOpen6] = useState(false);
+    const [isOpen6, setIsOpen6] = useState(false);
+    // const [isOpen7, setIsOpen7] = useState(false);
 
     function toggleModalOne() {
         setIsOpen(!isOpen);
@@ -27,10 +28,13 @@ const Blog = () => {
         setIsOpen4(!isOpen4);
     }
     function toggleModalFive() {
-    	setIsOpen5(!isOpen5);
+        setIsOpen5(!isOpen5);
     }
-    // function toggleModalSix() {
-    // 	setIsOpen6(!isOpen6);
+    function toggleModalSix() {
+    	setIsOpen6(!isOpen6);
+    }
+    // function toggleModalSeven() {
+    // 	setIsOpen7(!isOpen7);
     // }
 
     const blogData = [
@@ -78,7 +82,8 @@ const Blog = () => {
             video: 'https://www.youtube.com/embed/DEUlKgTPG_8',
             github: 'https://github.com/paccionesawyer/3Axis-DrawingRobot',
             license: 'GNU GPLv3',
-            googleSlides: 'https://docs.google.com/presentation/d/e/2PACX-1vSffffp1ur_SL_2saIzBnyVTFeWSw4RRE7s29ElabWWkOJwfb-GiONN20kFewzAP_Ru_HWtoF3kxdRx/embed?start=true&loop=true&delayms=3000',
+            googleSlides:
+                'https://docs.google.com/presentation/d/e/2PACX-1vSffffp1ur_SL_2saIzBnyVTFeWSw4RRE7s29ElabWWkOJwfb-GiONN20kFewzAP_Ru_HWtoF3kxdRx/embed?start=true&loop=true&delayms=3000',
         },
         {
             id: 3,
@@ -122,24 +127,43 @@ const Blog = () => {
             video: 'https://www.youtube.com/embed/XxoPbqSJhxU',
             github: 'https://github.com/paccionesawyer/Analog-Clock',
             license: 'GNU GPLv3',
-            googleSlides: 'https://docs.google.com/presentation/d/e/2PACX-1vSZQkpaKKM4a7oE4soe3qsaG70uYuO7I1KXHlyM0mWFdxtdphlEvD4jj85krfrH5BP44N42HmhmU8X7/embed?start=true&loop=true&delayms=3000',
+            googleSlides:
+                'https://docs.google.com/presentation/d/e/2PACX-1vSZQkpaKKM4a7oE4soe3qsaG70uYuO7I1KXHlyM0mWFdxtdphlEvD4jj85krfrH5BP44N42HmhmU8X7/embed?start=true&loop=true&delayms=3000',
         },
         {
-        	id: 5,
-        	image: 'img/blog/balancingRobot/balancingRobot.png',
-        	name: 'Balancing Robot',
-        	desc: 'Each group must build a robot that actively balances using an IMU and Lidar.',
-        	open: isOpen5,
-        	toggle: toggleModalFive,
-        	category: 'Robotics',
-        	author: 'Sawyer Paccione',
-        	date: 'Fall 2021',
-        	tags: 'ME134, Robotics, Raspberry Pi, Servo Motor, 3D Printing, Lasercut',
-        	file: '',
+            id: 5,
+            image: 'img/blog/balancingRobot/balancingRobot.png',
+            name: 'Balancing Robot',
+            desc: 'Each group must build a robot that actively balances using an IMU and Lidar.',
+            open: isOpen5,
+            toggle: toggleModalFive,
+            category: 'Robotics',
+            author: 'Sawyer Paccione',
+            date: 'Fall 2021',
+            tags: 'ME134, Robotics, Raspberry Pi, Servo Motor, 3D Printing, Lasercut',
+            file: '',
             video: 'https://www.youtube.com/embed/o_CTzC9hGLA',
             github: 'https://github.com/paccionesawyer/Balancing-Robot',
             license: 'GNU GPLv3',
-            googleSlides: 'https://docs.google.com/presentation/d/e/2PACX-1vRHjJN3GT4tmBuBeMUIx4y-onYyvO6Yz6UtI8IFlalm_2amTn-IVO_JNePIYrSuACxNmAw4vjM9W5vp/embed?start=false&loop=false&delayms=3000'
+            googleSlides:
+                'https://docs.google.com/presentation/d/e/2PACX-1vRHjJN3GT4tmBuBeMUIx4y-onYyvO6Yz6UtI8IFlalm_2amTn-IVO_JNePIYrSuACxNmAw4vjM9W5vp/embed?start=false&loop=false&delayms=3000',
+        },
+        {
+            id: 6,
+            image: 'img/blog/',
+            name: '',
+            desc: '',
+            open: isOpen6,
+            toggle: toggleModalSix,
+            category: 'Robotics',
+            author: 'Sawyer Paccione',
+            date: '',
+            tags: '',
+            file: '*.md',
+            video: '',
+            github: '',
+            license: 'GNU GPLv3',
+            googleSlides: 'https://docs.google.com/presentation/d/e/2PACX-1vQsvUF0MH1QBB1-WiG6-YcRISoWYFb105B0-GZHX-XnUdSZJmjdi32foXiJrqc8iVNaJc89_BuZAp_h/embed?start=true&loop=true&delayms=3000',
         },
         // {
         // 	id: X,
