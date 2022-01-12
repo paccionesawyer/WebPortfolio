@@ -48,10 +48,6 @@ const ModalContent = ({ data }) => {
             </a>
             <p>{data.desc}</p>
             {/* Article Content Starts */}
-            {/* <div style={{padding: '0.5em', backgroundColor: 'lightgrey', marginBottom: '1em', borderRadius: '20px'}}> 
-                <PortfolioSlides path = {data.slidePath} slides={data.slides}></PortfolioSlides>
-            </div> */}
-
             {data.googleSlides != null ? (
                 <>
                     <h2>Presentation</h2>

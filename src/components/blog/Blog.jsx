@@ -14,7 +14,7 @@ const Blog = () => {
     const [isOpen5, setIsOpen5] = useState(false);
     const [isOpen6, setIsOpen6] = useState(false);
     const [isOpen7, setIsOpen7] = useState(false);
-    // const [isOpen8, setIsOpen8] = useState(false);
+    const [isOpen8, setIsOpen8] = useState(false);
     // const [isOpen9, setIsOpen8] = useState(false);
     // const [isOpen10, setIsOpen10] = useState(false);
     // const [isOpen11, setIsOpen11] = useState(false);
@@ -49,9 +49,9 @@ const Blog = () => {
     function toggleModalSeven() {
     	setIsOpen7(!isOpen7);
     }
-    // function toggleModalEight() {
-    // 	setIsOpen8(!isOpen8);
-    // }
+    function toggleModalEight() {
+    	setIsOpen8(!isOpen8);
+    }
     // function toggleModalNine() {
     // 	setIsOpen9(!isOpen9);
     // }
@@ -91,21 +91,38 @@ const Blog = () => {
 
     const blogData = [
         {
-            id: 1,
-            image: 'img/blog/stlConverter/stl_converter.svg',
-            name: 'STL to CSV Converter',
-            desc: 'Convert a 3D .stl into a .csv as a list of xyz points using a graphical user interface',
-            open: isOpen,
-            toggle: toggleModalOne,
-            category: 'Computer Science',
-            author: 'Sawyer Paccione',
-            date: 'Summer 2021',
-            tags: 'STL, CSV, Computer Science',
-            file: 'stl-to-csv-converter.md',
-            video: 'https://www.youtube.com/embed/O8TiVJCqcdQ',
-            github: 'https://github.com/paccionesawyer/stl-to-csv-converter',
+            id: 8,
+            image: 'img/blog/seniorDesign/WholeArm.jpg',
+            name: 'Senior Design - Seedling Incubator',
+            desc: 'An automatic robotic system that can plant and monitor seeds.',
+            open: isOpen8,
+            toggle: toggleModalEight,
+            category: 'Robotics',
+            author: 'Sawyer Paccione, Rónán Gissler, Olif Hordofa, Alex Eldaief, Dominic Ndondo',
+            date: 'Fall 2021',
+            tags: '',
+            file: '*.md',
+            video: 'https://www.youtube.com/embed/ZdUgWGHz1Jo',
+            github: 'https://github.com/paccionesawyer/ROBOCROP?organization=paccionesawyer&organization=paccionesawyer',
             license: 'GNU GPLv3',
-            googleSlides: null,
+            googleSlides: "https://docs.google.com/presentation/d/e/2PACX-1vQsdTXiIu9xms6zou9ZVlmOmJg2EazT2DaKBfhyQ-ThOl3nSFAgFzbVSXFmxUtXajqufzORQ41UYV-6/embed?start=false&loop=false&delayms=3000"
+        },
+        {
+            id: 7,
+            image: 'img/blog/brachiobot/breakiobot.png',
+            name: 'Brachiating Robot',
+            desc: 'Each group will develop and build a brachiating robot to overcome the brachiation course.',
+            open: isOpen7,
+            toggle: toggleModalSeven,
+            category: 'Robotics',
+            author: 'Sawyer Paccione',
+            date: 'Fall 2021',
+            tags: 'ME134, Robotics, Raspberry Pi, Brachiating, BioRobotics',
+            file: '*.md',
+            video: 'https://www.youtube.com/embed/mIbq5ids4QM',
+            github: 'https://github.com/paccionesawyer/ME134-FinalProject',
+            license: 'GNU GPLv3',
+            googleSlides: "https://docs.google.com/presentation/d/e/2PACX-1vSjs8Mkjnvnsy14O_j1LQEZ1s4LpCua6nV3ZBgmLVWOHLzQyQpJAf6szwU_O0BjU34RtQWk0RT3hR0-/embed?start=true&loop=true&delayms=3000"
         },
         {
             id: 2,
@@ -161,6 +178,23 @@ const Blog = () => {
                 'https://docs.google.com/presentation/d/e/2PACX-1vSZQkpaKKM4a7oE4soe3qsaG70uYuO7I1KXHlyM0mWFdxtdphlEvD4jj85krfrH5BP44N42HmhmU8X7/embed?start=true&loop=true&delayms=3000',
         },
         {
+            id: 1,
+            image: 'img/blog/stlConverter/stl_converter.svg',
+            name: 'STL to CSV Converter',
+            desc: 'Convert a 3D .stl into a .csv as a list of xyz points using a graphical user interface',
+            open: isOpen,
+            toggle: toggleModalOne,
+            category: 'Computer Science',
+            author: 'Sawyer Paccione',
+            date: 'Summer 2021',
+            tags: 'STL, CSV, Computer Science',
+            file: 'stl-to-csv-converter.md',
+            video: 'https://www.youtube.com/embed/O8TiVJCqcdQ',
+            github: 'https://github.com/paccionesawyer/stl-to-csv-converter',
+            license: 'GNU GPLv3',
+            googleSlides: null,
+        },
+        {
             id: 5,
             image: 'img/blog/balancingRobot/balancingRobot.png',
             name: 'Balancing Robot',
@@ -195,23 +229,6 @@ const Blog = () => {
             license: 'GNU GPLv3',
             googleSlides:
                 'https://docs.google.com/presentation/d/e/2PACX-1vQsvUF0MH1QBB1-WiG6-YcRISoWYFb105B0-GZHX-XnUdSZJmjdi32foXiJrqc8iVNaJc89_BuZAp_h/embed?start=true&loop=true&delayms=3000',
-        },
-        {
-            id: 7,
-            image: 'img/blog/brachiobot/breakiobot.png',
-            name: 'Brachiating Robot',
-            desc: 'Each group will develop and build a brachiating robot to overcome the brachiation course.',
-            open: isOpen7,
-            toggle: toggleModalSeven,
-            category: 'Robotics',
-            author: 'Sawyer Paccione',
-            date: 'Fall 2021',
-            tags: 'ME134, Robotics, Raspberry Pi, Brachiating, BioRobotics',
-            file: '*.md',
-            video: 'https://www.youtube.com/embed/mIbq5ids4QM',
-            github: 'https://github.com/paccionesawyer/ME134-FinalProject',
-            license: 'GNU GPLv3',
-            googleSlides: "https://docs.google.com/presentation/d/e/2PACX-1vSjs8Mkjnvnsy14O_j1LQEZ1s4LpCua6nV3ZBgmLVWOHLzQyQpJAf6szwU_O0BjU34RtQWk0RT3hR0-/embed?start=true&loop=true&delayms=3000"
         },
         // {
         //     id: X,
