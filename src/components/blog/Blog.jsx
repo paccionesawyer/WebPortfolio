@@ -15,6 +15,18 @@ const Blog = () => {
     const [isOpen6, setIsOpen6] = useState(false);
     const [isOpen7, setIsOpen7] = useState(false);
     // const [isOpen8, setIsOpen8] = useState(false);
+    // const [isOpen9, setIsOpen8] = useState(false);
+    // const [isOpen10, setIsOpen10] = useState(false);
+    // const [isOpen11, setIsOpen11] = useState(false);
+    // const [isOpen12, setIsOpen12] = useState(false);
+    // const [isOpen13, setIsOpen13] = useState(false);
+    // const [isOpen14, setIsOpen14] = useState(false);
+    // const [isOpen15, setIsOpen15] = useState(false);
+    // const [isOpen16, setIsOpen16] = useState(false);
+    // const [isOpen17, setIsOpen17] = useState(false);
+    // const [isOpen18, setIsOpen18] = useState(false);
+    // const [isOpen19, setIsOpen19] = useState(false);
+    // const [isOpen20, setIsOpen20] = useState(false);
 
     function toggleModalOne() {
         setIsOpen(!isOpen);
@@ -39,6 +51,42 @@ const Blog = () => {
     }
     // function toggleModalEight() {
     // 	setIsOpen8(!isOpen8);
+    // }
+    // function toggleModalNine() {
+    // 	setIsOpen9(!isOpen9);
+    // }
+    // function toggleModalTen() {
+    // 	setIsOpen10(!isOpen10);
+    // }
+    // function toggleModalEleven() {
+    // 	setIsOpen11(!isOpen11);
+    // }
+    // function toggleModalTwelve() {
+    // 	setIsOpen12(!isOpen12);
+    // }
+    // function toggleModal13() {
+    // 	setIsOpen13(!isOpen13);
+    // }
+    // function toggleModal14() {
+    // 	setIsOpen14(!isOpen14);
+    // }
+    // function toggleModal15() {
+    // 	setIsOpen15(!isOpen15);
+    // }
+    // function toggleModal16() {
+    // 	setIsOpen16(!isOpen16);
+    // }
+    // function toggleModal17() {
+    // 	setIsOpen17(!isOpen17);
+    // }
+    // function toggleModal18() {
+    // 	setIsOpen18(!isOpen18);
+    // }
+    // function toggleModal19() {
+    // 	setIsOpen19(!isOpen19);
+    // }
+    // function toggleModal20() {
+    // 	setIsOpen20(!isOpen20);
     // }
 
     const blogData = [
