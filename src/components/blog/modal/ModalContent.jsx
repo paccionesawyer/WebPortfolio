@@ -54,10 +54,12 @@ const ModalContent = ({ data }) => {
             {/* <div style={{padding: '0.5em', backgroundColor: 'lightgrey', marginBottom: '1em', borderRadius: '20px'}}> 
                 <PortfolioSlides path = {data.slidePath} slides={data.slides}></PortfolioSlides>
             </div> */}
-            <h2>Presentation</h2>
-            <div class='google-slides-container'>
-                <iframe src={data.googleSlides} start="true&delayms=6000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" rm="minimal"></iframe>
-            </div>
+            
+            {data.googleSlides != null ? (
+                <><h2>Presentation</h2><div class='google-slides-container'>
+                    <iframe src={data.googleSlides} start="true&delayms=6000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" rm="minimal"></iframe>
+                </div></>
+            ) : (<></>)}
             <h2>Demo Video</h2>
             <div class="embed-youtube">
                 <iframe src={data.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
