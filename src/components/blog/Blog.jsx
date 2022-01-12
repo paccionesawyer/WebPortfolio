@@ -31,7 +31,7 @@ const Blog = () => {
         setIsOpen5(!isOpen5);
     }
     function toggleModalSix() {
-    	setIsOpen6(!isOpen6);
+        setIsOpen6(!isOpen6);
     }
     // function toggleModalSeven() {
     // 	setIsOpen7(!isOpen7);
@@ -50,8 +50,6 @@ const Blog = () => {
             date: 'Summer 2021',
             tags: 'STL, CSV, Computer Science',
             file: 'stl-to-csv-converter.md',
-            slidePath: '',
-            slides: [''],
             video: 'https://www.youtube.com/embed/O8TiVJCqcdQ',
             github: 'https://github.com/paccionesawyer/stl-to-csv-converter',
             license: 'GNU GPLv3',
@@ -69,16 +67,6 @@ const Blog = () => {
             date: 'Fall 2021',
             tags: 'Robotics, ME134, Denavit-Hartenberg, 3D Printing, LaserCut, Raspberry Pi',
             file: '3-axis-robot.md',
-            slidePath: '/img/blog/drawingArm/',
-            slides: [
-                'ME134_HW3_Group3_Presentation-1.jpg',
-                'ME134_HW3_Group3_Presentation-2.jpg',
-                'ME134_HW3_Group3_Presentation-3.jpg',
-                'ME134_HW3_Group3_Presentation-4.jpg',
-                'ME134_HW3_Group3_Presentation-5.jpg',
-                'ME134_HW3_Group3_Presentation-6.jpg',
-                'ME134_HW3_Group3_Presentation-7.jpg',
-            ],
             video: 'https://www.youtube.com/embed/DEUlKgTPG_8',
             github: 'https://github.com/paccionesawyer/3Axis-DrawingRobot',
             license: 'GNU GPLv3',
@@ -97,8 +85,6 @@ const Blog = () => {
             date: 'Spring 2021',
             tags: 'Robotics, ME35, HTTP, Raspberry Pi',
             file: 'web-pi-car.md',
-            slidePath: '/img/blog/webCar/',
-            slides: ['PI_CAR_LABELLED.jpg'],
             video: 'https://www.youtube.com/embed/HMzt1AFN9BQ',
             github: 'https://github.com/paccionesawyer/web-pi-car',
             license: 'GNU GPLv3',
@@ -116,14 +102,6 @@ const Blog = () => {
             date: 'Fall 2021',
             tags: 'ME134, Robotics, Raspberry Pi, Servo Motor, 3D Printing, Lasercut',
             file: 'barrelClock.md',
-            slidePath: '/img/blog/barrelClock/',
-            slides: [
-                'Group7 - Barrel Clock - ME134-1.jpg',
-                'Group7 - Barrel Clock - ME134-2.jpg',
-                'Group7 - Barrel Clock - ME134-3.jpg',
-                'Group7 - Barrel Clock - ME134-4.jpg',
-                'Group7 - Barrel Clock - ME134-5.jpg',
-            ],
             video: 'https://www.youtube.com/embed/XxoPbqSJhxU',
             github: 'https://github.com/paccionesawyer/Analog-Clock',
             license: 'GNU GPLv3',
@@ -138,7 +116,7 @@ const Blog = () => {
             open: isOpen5,
             toggle: toggleModalFive,
             category: 'Robotics',
-            author: 'Sawyer Paccione',
+            author: 'Sawyer Paccione, Rónán Gissler, Akshita Rao',
             date: 'Fall 2021',
             tags: 'ME134, Robotics, Raspberry Pi, Servo Motor, 3D Printing, Lasercut',
             file: '',
@@ -156,14 +134,15 @@ const Blog = () => {
             open: isOpen6,
             toggle: toggleModalSix,
             category: 'Robotics',
-            author: 'Sawyer Paccione',
+            author: 'Sawyer Paccione, Taylor Korte, Jack Amsbry',
             date: 'Fall 2021',
             tags: 'ME134, Robotics, Raspberry Pi, Servo Motor, Facial Recognition, Haar Cascade, HRI',
             file: '*.md',
             video: 'https://www.youtube.com/embed/hkErcos6EiM',
             github: 'https://github.com/paccionesawyer/Catapult-Robot',
             license: 'GNU GPLv3',
-            googleSlides: 'https://docs.google.com/presentation/d/e/2PACX-1vQsvUF0MH1QBB1-WiG6-YcRISoWYFb105B0-GZHX-XnUdSZJmjdi32foXiJrqc8iVNaJc89_BuZAp_h/embed?start=true&loop=true&delayms=3000',
+            googleSlides:
+                'https://docs.google.com/presentation/d/e/2PACX-1vQsvUF0MH1QBB1-WiG6-YcRISoWYFb105B0-GZHX-XnUdSZJmjdi32foXiJrqc8iVNaJc89_BuZAp_h/embed?start=true&loop=true&delayms=3000',
         },
         // {
         // 	id: X,
