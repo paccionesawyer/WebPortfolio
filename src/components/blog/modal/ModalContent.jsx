@@ -59,7 +59,6 @@ const ModalContent = ({ data }) => {
                         <iframe
                             title='slidesEmbed'
                             src={data.googleSlides}
-                            start="true&delayms=6000"
                             frameborder="0"
                             width="1440"
                             height="839"

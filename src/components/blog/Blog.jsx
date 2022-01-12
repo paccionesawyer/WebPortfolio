@@ -13,7 +13,8 @@ const Blog = () => {
     const [isOpen4, setIsOpen4] = useState(false);
     const [isOpen5, setIsOpen5] = useState(false);
     const [isOpen6, setIsOpen6] = useState(false);
-    // const [isOpen7, setIsOpen7] = useState(false);
+    const [isOpen7, setIsOpen7] = useState(false);
+    // const [isOpen8, setIsOpen8] = useState(false);
 
     function toggleModalOne() {
         setIsOpen(!isOpen);
@@ -33,8 +34,11 @@ const Blog = () => {
     function toggleModalSix() {
         setIsOpen6(!isOpen6);
     }
-    // function toggleModalSeven() {
-    // 	setIsOpen7(!isOpen7);
+    function toggleModalSeven() {
+    	setIsOpen7(!isOpen7);
+    }
+    // function toggleModalEight() {
+    // 	setIsOpen8(!isOpen8);
     // }
 
     const blogData = [
@@ -143,6 +147,23 @@ const Blog = () => {
             license: 'GNU GPLv3',
             googleSlides:
                 'https://docs.google.com/presentation/d/e/2PACX-1vQsvUF0MH1QBB1-WiG6-YcRISoWYFb105B0-GZHX-XnUdSZJmjdi32foXiJrqc8iVNaJc89_BuZAp_h/embed?start=true&loop=true&delayms=3000',
+        },
+        {
+            id: 7,
+            image: 'img/blog/brachiobot/breakiobot.png',
+            name: 'Brachiating Robot',
+            desc: 'Each group will develop and build a brachiating robot to overcome the brachiation course.',
+            open: isOpen7,
+            toggle: toggleModalSeven,
+            category: 'Robotics',
+            author: 'Sawyer Paccione',
+            date: 'Fall 2021',
+            tags: 'ME134, Robotics, Raspberry Pi, Brachiating, BioRobotics',
+            file: '*.md',
+            video: 'https://www.youtube.com/embed/mIbq5ids4QM',
+            github: 'https://github.com/paccionesawyer/ME134-FinalProject',
+            license: 'GNU GPLv3',
+            googleSlides: "https://docs.google.com/presentation/d/e/2PACX-1vSjs8Mkjnvnsy14O_j1LQEZ1s4LpCua6nV3ZBgmLVWOHLzQyQpJAf6szwU_O0BjU34RtQWk0RT3hR0-/embed?start=true&loop=true&delayms=3000"
         },
         // {
         //     id: X,
