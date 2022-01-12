@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import Markdown from 'markdown-to-jsx';
-import PortfolioSlides from '../portfolioSlides';
 
 const ModalContent = ({ data }) => {
     const [post, setPost] = useState('');
@@ -47,23 +46,51 @@ const ModalContent = ({ data }) => {
                 <span className="button-text">View on Github</span>
                 <span className="button-icon fa fa-github"></span>
             </a>
-            <p>
-                {data.desc}
-            </p>
+            <p>{data.desc}</p>
             {/* Article Content Starts */}
             {/* <div style={{padding: '0.5em', backgroundColor: 'lightgrey', marginBottom: '1em', borderRadius: '20px'}}> 
                 <PortfolioSlides path = {data.slidePath} slides={data.slides}></PortfolioSlides>
             </div> */}
-            
+
             {data.googleSlides != null ? (
-                <><h2>Presentation</h2><div class='google-slides-container'>
-                    <iframe src={data.googleSlides} start="true&delayms=6000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" rm="minimal"></iframe>
-                </div></>
-            ) : (<></>)}
-            <h2>Demo Video</h2>
-            <div class="embed-youtube">
-                <iframe src={data.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+                <>
+                    <h2>Presentation</h2>
+                    <div class="google-slides-container">
+                        <iframe
+                            title='slidesEmbed'
+                            src={data.googleSlides}
+                            start="true&delayms=6000"
+                            frameborder="0"
+                            width="1440"
+                            height="839"
+                            allowfullscreen="true"
+                            mozallowfullscreen="true"
+                            webkitallowfullscreen="true"
+                            rm="minimal"
+                        ></iframe>
+                    </div>
+                </>
+            ) : (
+                <></>
+            )}
+
+            {data.video != null ? (
+                <>
+                    <h2>Demo Video</h2>
+                    <div class="embed-youtube">
+                        <iframe
+                            src={data.video}
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </>
+            ) : (
+                <></>
+            )}
+
             <div className="blog-excerpt open-sans-font pb-5">
                 <Markdown>{post}</Markdown>
             </div>
