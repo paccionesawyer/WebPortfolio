@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Markdown from 'markdown-to-jsx';
+// import ReactMarkdown from 'react-markdown'
 
 const ModalContent = ({ data }) => {
     const [post, setPost] = useState('');
@@ -88,6 +89,7 @@ const ModalContent = ({ data }) => {
 
             <div className="blog-excerpt open-sans-font pb-5">
                 <Markdown>{post}</Markdown>
+                {/* <ReactMarkdown children={post}  /> */}
             </div>
             <div class="center">
                 <img src={data.image} className="img-fluid center" alt="Blog" />

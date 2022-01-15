@@ -1,6 +1,6 @@
 {
-  "name": "paccionePortfolio",
-  "version": "1.1.1",
+  "name": "paccione-portfolio",
+  "version": "2.0.1",
   "private": true,
   "homepage": "http://sawyerpaccione.com/",
   "dependencies": {
@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.6.3",
+    "react-markdown": "^7.1.2",
     "react-modal": "^3.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
