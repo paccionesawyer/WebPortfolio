@@ -118,7 +118,7 @@ const Blog = () => {
             author: 'Sawyer Paccione',
             date: 'Fall 2021',
             tags: 'ME134, Robotics, Raspberry Pi, Brachiating, BioRobotics',
-            file: '*.md',
+            file: 'brachiation.md',
             video: 'https://www.youtube.com/embed/mIbq5ids4QM',
             github: 'https://github.com/paccionesawyer/ME134-FinalProject',
             license: 'GNU GPLv3',
