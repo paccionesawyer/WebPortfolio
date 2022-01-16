@@ -101,7 +101,7 @@ const Blog = () => {
             author: 'Sawyer Paccione, Rónán Gissler, Olif Hordofa, Alex Eldaief, Dominic Ndondo',
             date: 'Fall 2021',
             tags: '',
-            file: '*.md',
+            file: 'seniorDesign.md',
             video: 'https://www.youtube.com/embed/ZdUgWGHz1Jo',
             github: 'https://github.com/paccionesawyer/ROBOCROP?organization=paccionesawyer&organization=paccionesawyer',
             license: 'GNU GPLv3',
