@@ -253,20 +253,6 @@ const Blog = () => {
         setFilter(val);
     }
 
-    // const file_name = 'stl-to-csv-converter.md';
-    // const [post, setPost] = useState('');
-
-    // useEffect(() => {
-    //     import(`./modal/MarkdownFiles/${file_name}`)
-    //         .then((res) => {
-    //             fetch(res.default)
-    //                 .then((res) => res.text())
-    //                 .then((res) => setPost(res))
-    //                 .catch((err) => console.log(err));
-    //         })
-    //         .catch((err) => console.log(err));
-    // });
-
     return (
         <>
             <Nav filter={filter} setFilter={filterTags} />
