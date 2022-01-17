@@ -56,16 +56,18 @@ figure {
   .box_inner {
     // EDIT THE MODAL SIZES
     height: 90vh;
-    width: 55vw;
+    width: 60vw;
     overflow-y: auto;
     &.blog-post {
       padding: 0 50px;
-      @media (max-width: 767px) {
+      @media (max-width: 1200px) {
+        
+        width: 90vw;
         padding: 0 15px;
       }
       .title-section {
         padding: 50px 0;
-        @media (max-width: 767px) {
+        @media (max-width: 1200px) {
           padding: 50px 0 20px;
         }
       }

@@ -16,7 +16,7 @@ const Blog = () => {
     const [isOpen7, setIsOpen7] = useState(false);
     const [isOpen8, setIsOpen8] = useState(false);
     const [isOpen9, setIsOpen9] = useState(false);
-    // const [isOpen10, setIsOpen10] = useState(false);
+    const [isOpen10, setIsOpen10] = useState(false);
     // const [isOpen11, setIsOpen11] = useState(false);
     // const [isOpen12, setIsOpen12] = useState(false);
     // const [isOpen13, setIsOpen13] = useState(false);
@@ -55,9 +55,9 @@ const Blog = () => {
     function toggleModalNine() {
     	setIsOpen9(!isOpen9);
     }
-    // function toggleModal10() {
-    // 	setIsOpen10(!isOpen10);
-    // }
+    function toggleModal10() {
+    	setIsOpen10(!isOpen10);
+    }
     // function toggleModal11() {
     // 	setIsOpen11(!isOpen11);
     // }
@@ -235,8 +235,8 @@ const Blog = () => {
             image: 'img/blog/sudoku/sudokuDemo43.gif',
             name: 'Sudoku Solver',
             desc: 'Automatically solve any sudoku puzzle by setting it up as a Constraint Satisfaction Problem',
-            open: isOpen8,
-            toggle: toggleModalEight,
+            open: isOpen10,
+            toggle: toggleModal10,
             category: 'Computer Science',
             author: 'Sawyer Paccione',
             date: 'Summer 2020',

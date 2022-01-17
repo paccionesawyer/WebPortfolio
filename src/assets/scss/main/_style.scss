@@ -1009,13 +1009,13 @@ hr.separator {
         font-size: 13px;
     }
     .img-fluid {
-        // @media (min-width: 1350px) {
-        //   background: var(--accent3);
-        //   min-height: 396px;
-        // }
-        // @media (max-width: 450px) {
-        //   min-height: 173px;
-        // }
+        @media (min-width: 1350px) {
+          background: var(--accent3);
+          min-height: 396px;
+        }
+        @media (max-width: 450px) {
+          min-height: 173px;
+        }
     }
 }
 
