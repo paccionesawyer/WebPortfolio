@@ -1,2 +1,0 @@
-(this.webpackJsonppaccionePortfolio=this.webpackJsonppaccionePortfolio||[]).push([[4],{53:function(o,i,t){"use strict";t.r(i),i.default=t.p+"static/media/3-axis-robot.66ab1a41.md"}}]);
-//# sourceMappingURL=4.72c86e1e.chunk.js.map

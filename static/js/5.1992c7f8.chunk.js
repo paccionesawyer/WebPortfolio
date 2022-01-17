@@ -1,0 +1,2 @@
+(this["webpackJsonppaccione-portfolio"]=this["webpackJsonppaccione-portfolio"]||[]).push([[5],{54:function(o,c,a){"use strict";a.r(c),c.default=a.p+"static/media/barrelClock.a826a2c1.md"}}]);
+//# sourceMappingURL=5.1992c7f8.chunk.js.map

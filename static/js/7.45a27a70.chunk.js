@@ -1,0 +1,2 @@
+(this["webpackJsonppaccione-portfolio"]=this["webpackJsonppaccione-portfolio"]||[]).push([[7],{56:function(o,c,i){"use strict";i.r(c),c.default=i.p+"static/media/roomba.ac72bbc8.md"}}]);
+//# sourceMappingURL=7.45a27a70.chunk.js.map

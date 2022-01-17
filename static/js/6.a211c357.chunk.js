@@ -1,0 +1,2 @@
+(this["webpackJsonppaccione-portfolio"]=this["webpackJsonppaccione-portfolio"]||[]).push([[6],{55:function(i,o,t){"use strict";t.r(o),o.default=t.p+"static/media/brachiation.a6664341.md"}}]);
+//# sourceMappingURL=6.a211c357.chunk.js.map
