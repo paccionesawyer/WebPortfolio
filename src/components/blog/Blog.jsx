@@ -15,7 +15,7 @@ const Blog = () => {
     const [isOpen6, setIsOpen6] = useState(false);
     const [isOpen7, setIsOpen7] = useState(false);
     const [isOpen8, setIsOpen8] = useState(false);
-    // const [isOpen9, setIsOpen8] = useState(false);
+    const [isOpen9, setIsOpen9] = useState(false);
     // const [isOpen10, setIsOpen10] = useState(false);
     // const [isOpen11, setIsOpen11] = useState(false);
     // const [isOpen12, setIsOpen12] = useState(false);
@@ -52,16 +52,16 @@ const Blog = () => {
     function toggleModalEight() {
     	setIsOpen8(!isOpen8);
     }
-    // function toggleModalNine() {
-    // 	setIsOpen9(!isOpen9);
-    // }
-    // function toggleModalTen() {
+    function toggleModalNine() {
+    	setIsOpen9(!isOpen9);
+    }
+    // function toggleModal10() {
     // 	setIsOpen10(!isOpen10);
     // }
-    // function toggleModalEleven() {
+    // function toggleModal11() {
     // 	setIsOpen11(!isOpen11);
     // }
-    // function toggleModalTwelve() {
+    // function toggleModal12() {
     // 	setIsOpen12(!isOpen12);
     // }
     // function toggleModal13() {
@@ -229,6 +229,40 @@ const Blog = () => {
             license: 'GNU GPLv3',
             googleSlides:
                 'https://docs.google.com/presentation/d/e/2PACX-1vQsvUF0MH1QBB1-WiG6-YcRISoWYFb105B0-GZHX-XnUdSZJmjdi32foXiJrqc8iVNaJc89_BuZAp_h/embed?start=true&loop=true&delayms=3000',
+        },
+        {
+            id: 8,
+            image: 'img/blog/sudoku/sudokuDemo43.gif',
+            name: 'Sudoku Solver',
+            desc: 'Automatically solve any sudoku puzzle by setting it up as a Constraint Satisfaction Problem',
+            open: isOpen8,
+            toggle: toggleModalEight,
+            category: 'Computer Science',
+            author: 'Sawyer Paccione',
+            date: 'Summer 2020',
+            tags: 'Computer Science, CSP, Python',
+            file: 'sudoku.md',
+            video: 'https://www.youtube.com/embed/QRx60GoxlpM',
+            github: 'https://github.com/paccionesawyer/sudokuSolver-CSP',
+            license: 'GNU GPLv3',
+            googleSlides: null
+        },
+        {
+            id: 9,
+            image: 'img/blog/roomba/behaviorTree.png',
+            name: 'Roomba Behavior Tree',
+            desc: 'An implementation of a Roomba\'s behavior tree',
+            open: isOpen9,
+            toggle: toggleModalNine,
+            category: 'Computer Science',
+            author: 'Sawyer Paccione',
+            date: 'Summer 2020',
+            tags: 'Computer Science, Behavior Tree, Python',
+            file: 'roomba.md',
+            video: null,
+            github: 'https://github.com/paccionesawyer/roombaBehaviorTree',
+            license: 'GNU GPLv3',
+            googleSlides: null
         },
         // {
         //     id: X,
