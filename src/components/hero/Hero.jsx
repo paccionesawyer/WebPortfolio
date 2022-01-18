@@ -39,13 +39,6 @@ const Hero = () => {
               I'm {heroContent.heroTitleName}.
               <span>
                 {heroContent.heroDesignation}
-                {/* <TypeWriterEffect
-                  startDelay={0}
-                  cursorColor="#3F3D56"
-                  multiText={heroContent.heroDesignation}
-                  multiTextDelay={2000}
-                  typeSpeed={20}
-                /> */}
               </span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
@@ -53,6 +46,10 @@ const Hero = () => {
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
+          </div>
+          <div>
+            <h2>Featured Projects</h2>
+            
           </div>
         </div>
       </div>

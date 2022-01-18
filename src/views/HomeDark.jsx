@@ -1,11 +1,11 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Hero from "../../components/hero/Hero";
-import Index from "../../components/about/index";
-import Address from "../../components/Address";
-import Blog from "../../components/blog/Blog";
-import Social from "../../components/Social";
-import Toggle from "../../components/Toggle";
+import Hero from "../components/hero/Hero";
+import Index from "../components/about/index";
+import Address from "../components/Address";
+import Blog from "../components/blog/Blog";
+import Social from "../components/Social";
+import Toggle from "../components/Toggle";
 
 const menuItem = [
   { icon: "fa-home", menuName: "Home" },
