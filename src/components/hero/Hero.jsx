@@ -122,64 +122,65 @@ const Hero = () => {
 					</div>
 					<div>
 						<h2>Featured Projects</h2>
-            <div className='row blog'>
-            {blogData.map((blogData, index) => (
-							<div
-								key={index}
-								className='col-12 col-md-6 col-lg-6 col-xl-4 mb-30'
-							>
-								<article
-									className='post-container'
-									onClick={blogData.toggle}
+						<div className='row blog'>
+							{blogData.map((blogData, index) => (
+								<div
+									key={index}
+									className='col-12 col-md-6 col-lg-6 col-xl-4 mb-30'
 								>
-                <div style={{'min-height': "0px"}}></div>
-									<div className='post-thumb' >
-										<div className='d-block position-relative overflow-hidden'>
-											<img
-												src={blogData.image}
-												className='img-fluid'
-												alt='Blog Post'
-											/>
+									<article
+										className='post-container'
+										onClick={blogData.toggle}
+									>
+										<div style={{ 'min-height': '0px' }}>
+											<div className='post-thumb'>
+												<div className='d-block position-relative overflow-hidden'>
+													<img
+														src={blogData.image}
+														className='img-fluid'
+														alt='Blog Post'
+													/>
+												</div>
+											</div>
+											<div className='post-content'>
+												<div className='entry-header'>
+													<h3>{blogData.name}</h3>
+												</div>
+												<div className='entry-content open-sans-font'>
+													<p>{blogData.desc}</p>
+												</div>
+											</div>
 										</div>
-									</div>
-									<div className='post-content'>
-										<div className='entry-header'>
-											<h3>{blogData.name}</h3>
-										</div>
-										<div className='entry-content open-sans-font'>
-											<p>{blogData.desc}</p>
-										</div>
-									</div>
-								</article>
-								<Modal
-									isOpen={blogData.open}
-									onRequestClose={blogData.toggle}
-									contentLabel='My dialog'
-									className='custom-modal dark'
-									overlayClassName='custom-overlay dark'
-									closeTimeoutMS={500}
-								>
-									<div>
-										<button
-											className='close-modal'
-											onClick={blogData.toggle}
-										>
-											<img
-												src='/img/cancel.svg'
-												alt='close icon'
-											/>
-										</button>
+									</article>
+									<Modal
+										isOpen={blogData.open}
+										onRequestClose={blogData.toggle}
+										contentLabel='My dialog'
+										className='custom-modal dark'
+										overlayClassName='custom-overlay dark'
+										closeTimeoutMS={500}
+									>
+										<div>
+											<button
+												className='close-modal'
+												onClick={blogData.toggle}
+											>
+												<img
+													src='/img/cancel.svg'
+													alt='close icon'
+												/>
+											</button>
 
-										<div className='box_inner blog-post'>
-											<ModalContent
-												data={blogData}
-											></ModalContent>
+											<div className='box_inner blog-post'>
+												<ModalContent
+													data={blogData}
+												></ModalContent>
+											</div>
 										</div>
-									</div>
-								</Modal>
-							</div>
-						))}
-            </div>
+									</Modal>
+								</div>
+							))}
+						</div>
 					</div>
 				</div>
 			</div>
