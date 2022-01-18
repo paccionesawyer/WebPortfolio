@@ -17,7 +17,7 @@ const Blog = () => {
     const [isOpen8, setIsOpen8] = useState(false);
     const [isOpen9, setIsOpen9] = useState(false);
     const [isOpen10, setIsOpen10] = useState(false);
-    // const [isOpen11, setIsOpen11] = useState(false);
+    const [isOpen11, setIsOpen11] = useState(false);
     // const [isOpen12, setIsOpen12] = useState(false);
     // const [isOpen13, setIsOpen13] = useState(false);
     // const [isOpen14, setIsOpen14] = useState(false);
@@ -58,9 +58,9 @@ const Blog = () => {
     function toggleModal10() {
     	setIsOpen10(!isOpen10);
     }
-    // function toggleModal11() {
-    // 	setIsOpen11(!isOpen11);
-    // }
+    function toggleModal11() {
+    	setIsOpen11(!isOpen11);
+    }
     // function toggleModal12() {
     // 	setIsOpen12(!isOpen12);
     // }
@@ -123,6 +123,23 @@ const Blog = () => {
             github: 'https://github.com/paccionesawyer/ME134-FinalProject',
             license: 'GNU GPLv3',
             googleSlides: "https://docs.google.com/presentation/d/e/2PACX-1vSjs8Mkjnvnsy14O_j1LQEZ1s4LpCua6nV3ZBgmLVWOHLzQyQpJAf6szwU_O0BjU34RtQWk0RT3hR0-/embed?start=true&loop=true&delayms=3000"
+        },
+        {
+            id: 11,
+            image: 'img/blog/hriStudy/HRIShortDemo.gif',
+            name: 'Teaching a Robot Dog New Tricks',
+            desc: 'A Human Robot Interaction study on how training a robot can influence interaction.',
+            open: isOpen11,
+            toggle: toggleModal11,
+            category: 'Robotics',
+            author: 'Sawyer Paccione, Olivia Tomassetti, Stephanie Bentley',
+            date: 'Fall 2021',
+            tags: 'HRI, Robotics, AI, Reinforcement Learning',
+            file: 'hriStudy.md',
+            video: 'https://www.youtube.com/embed/Vv3SntFA8zU',
+            github: 'https://github.com/paccionesawyer/CS133-HRI-RobotDogStudy',
+            license: 'GNU GPLv3',
+            googleSlides: 'https://docs.google.com/presentation/d/e/2PACX-1vQNPIvUquHoyIGUwaRVDOmOv_fwqTF68Nt0LLwS35dOxOJaGcU29s5cdVvJ_nBaaP56TutDN4VgNThF/embed?start=false&loop=false&delayms=3000'
         },
         {
             id: 2,
@@ -231,7 +248,7 @@ const Blog = () => {
                 'https://docs.google.com/presentation/d/e/2PACX-1vQsvUF0MH1QBB1-WiG6-YcRISoWYFb105B0-GZHX-XnUdSZJmjdi32foXiJrqc8iVNaJc89_BuZAp_h/embed?start=true&loop=true&delayms=3000',
         },
         {
-            id: 8,
+            id: 10,
             image: 'img/blog/sudoku/sudokuDemo43.gif',
             name: 'Sudoku Solver',
             desc: 'Automatically solve any sudoku puzzle by setting it up as a Constraint Satisfaction Problem',
