@@ -1,2 +1,0 @@
-(this["webpackJsonppaccione-portfolio"]=this["webpackJsonppaccione-portfolio"]||[]).push([[8],{57:function(i,o,c){"use strict";c.r(o),o.default=c.p+"static/media/seniorDesign.4d297f1c.md"}}]);
-//# sourceMappingURL=8.94a619f1.chunk.js.map

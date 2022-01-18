@@ -1,2 +1,0 @@
-(this["webpackJsonppaccione-portfolio"]=this["webpackJsonppaccione-portfolio"]||[]).push([[11],{60:function(c,i,o){"use strict";o.r(i),i.default=o.p+"static/media/web-pi-car.95c3ce6f.md"}}]);
-//# sourceMappingURL=11.e50a1491.chunk.js.map

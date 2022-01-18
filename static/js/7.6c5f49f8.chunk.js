@@ -1,0 +1,2 @@
+(this["webpackJsonppaccione-portfolio"]=this["webpackJsonppaccione-portfolio"]||[]).push([[7],{56:function(i,o,t){"use strict";t.r(o),o.default=t.p+"static/media/hriStudy.002f5f89.md"}}]);
+//# sourceMappingURL=7.6c5f49f8.chunk.js.map
